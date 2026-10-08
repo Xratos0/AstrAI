@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  astrai:
+    build: .
+    container_name: astrai_lab
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    volumes:
+      - ./observations:/app/observations
+    restart: unless-stopped

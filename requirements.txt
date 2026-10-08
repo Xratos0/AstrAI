@@ -1,0 +1,14 @@
+google-genai
+python-dotenv
+lightkurve
+astropy
+matplotlib
+scipy
+pydantic
+xgboost
+scikit-learn
+astroquery
+pandas
+gradio
+emcee
+corner
